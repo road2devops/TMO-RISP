@@ -1,8 +1,7 @@
 ---
 applications:
 - name: DeviceCommandService
-  buildpack: java_buildpack_offline
-  path: D:\GEMMQ\DeviceCommandService\target\DeviceCommandService-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
   memory: 1024M
   instances: 1
   random-route: true
